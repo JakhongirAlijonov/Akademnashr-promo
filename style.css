@@ -1,0 +1,251 @@
+/* font-family:; */
+/* font-family: 'Roboto Condensed', sans-serif; */
+
+* , *::after, *::before{
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Roboto', sans-serif ;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    width: 100%;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-inline: 170px;
+   
+}
+
+.site-header {
+    border-top: 5px solid #FF7500;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 16px;
+}
+.site-logo:hover {
+    opacity: 0.8;
+}
+
+.site-header_nav__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.site-header_nav_item {
+    margin-left: 32px;
+    list-style: none;
+}
+.site-header_nav__link {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    font-size: 13px;
+    padding-bottom: 4px;
+}
+.site-header_nav__link:hover{
+    color: #FF7500;
+}
+
+.active{
+    border-bottom:3px solid #FF7500 ;
+    color: #FF7500;
+
+}
+.global-link {
+    padding: 12px 24px;
+    background-color: #FF7500;
+    color: #fff;
+    font-weight: 700;
+    font-size: 13px;
+    border-radius: 4px;
+}
+
+.global-link:hover{
+    color: #fff;
+    opacity: 0.8;
+}
+
+
+.hero {
+    background-color: #252420;
+}
+.hero-content {
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    justify-content: space-between;
+}
+
+.hero-content img{
+    border-radius: 8px;
+    margin-bottom: -62px;
+}
+
+
+.hr {
+    width: 80px;
+    border: 3px solid #FF7500;
+   margin: 0;
+}
+.hero-title {
+    margin-block: 40px 24px;
+    font-family: 'Roboto Condensed';
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0.5px;
+color: #fff;
+}
+.hero-info {
+    margin-bottom: 32px;
+    color: #fff;
+}
+.global-link {
+    text-decoration: none;
+}
+
+
+.features {
+    margin-top: 210px;
+}
+
+.features-title {
+    font-family: 'Roboto Condensed';
+font-size: 72px;
+font-weight: 700;
+line-height: 86px;
+letter-spacing: 0.5px;
+color: #000;
+margin-bottom: 72px;
+}
+.features-list {
+    display: flex;
+    align-items: center;
+}
+.features-card {
+    margin-left: 66px;
+
+}
+.features-card:first-child{
+    margin-left: 0;
+}
+.card-title {
+    font-family: 'Roboto Condensed';
+font-size: 24px;
+font-weight: 700;
+line-height: 29px;
+letter-spacing: 0.5px;
+margin-block: 32px 12px;
+}
+
+
+.kids {
+    margin-top: 330px;
+    margin-bottom: 160px;
+}
+.kids-content {
+    background-color: #252420;
+    padding-inline: 64px;
+    width: 1100px;
+border-radius: 12px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding-bottom: 64px;
+}
+
+.kids-content img{
+    margin-top: -85px;
+    border-radius: 12px;
+}
+.kids-text {
+    margin-right: 92px;
+}
+.kids-title {
+    font-family: 'Roboto Condensed';
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0.5px;
+color: #fff;
+}
+.kids-info {
+    color: #fff;
+    margin-block: 24px 12px;
+}
+.kids-info1 {
+    color: #fff;
+    margin-bottom: 24px;
+}
+.orange {
+    color: #FF7500;
+}
+
+
+.footer-content {
+    background-color: #F8F8F8;
+    padding-bottom: 56px;
+}
+
+.footer-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 56px 40px;
+}
+.footer-logo {
+    transition: .3s;
+}
+.footer-logo:hover{
+    opacity: 0.8;
+}
+.footer-socials {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.socials-link {
+    margin-left: 16px;
+    color: #252420;
+    transition: .3s;
+}
+.socials-link:hover{
+    color: #FF7500;
+}
+
+.footer-links {
+    display: flex;
+    align-items: flex-start;
+}
+.footer-list {
+    margin-left: 68px;
+    list-style: none;
+}
+.footer-list:first-child{
+    margin-left: 0;
+    padding: 0;
+}
+.footer-item {
+    margin-bottom: 16px;
+}
+.footer-link {
+    color: #252420;
+text-decoration: none;
+transition: .3s;
+}
+.footer-link:hover{
+    color: #FF7500;
+}
